@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    font-family: Sans-serif;
+    overflow: hidden;
+}
+
+.dashboard {
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 80px;
+    background-image: linear-gradient(
+        -225deg,
+        #5271c4 0%,
+        #b19fff 48%,
+        #eca1fe 100%
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu img {
+    width: 40px; /* Adjust as needed */
+}
+
+.items {
+    margin-top: 50px;
+}
+
+.items img {
+    margin-bottom: 25px;
+}
+
+.profile {
+    margin-top: auto;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+}
+
+.navigation {
+    width: 270px;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.wrapper2 {
+    height: 100%;
+    overflow: auto;
+}
+
+.right-side {
+    background-color: #f2f3f7;
+    width: calc(100% - 80px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-inbox {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.top-bar-items {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-items img {
+    margin-left: 10px;
+}
+
+.profile2 {
+    display: flex;
+    align-items: center;
+}
+
+.profile2 img {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.icon-name5 {
+    font-size: 13px;
+    color: grey;
+}
+
+.logout-button {
+    background-color: #f8f1ff;
+    color: #a84bfe;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right-body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.profile-header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.profile-picture-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+
+.edit-profile-button, .update-button {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.profile-edit-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+.update-button {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #732d91;
+}
+
+.new-hr {
+    border: 0.6px solid #ddd;
+    margin-bottom: 25px;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
